@@ -298,7 +298,7 @@ a {
   background-image: url("../img/coffe1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: drop-shadow(8px 8px 10px black);
+  filter: brightness(50%);
   z-index: 0; }
   .section-six .quote-icon {
     display: flex;
@@ -320,3 +320,39 @@ a {
     margin: 0 auto;
     font-size: 15px;
     color: white; }
+
+.section-seven {
+  height: 1170px; }
+  .section-seven .first-component {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+    .section-seven .first-component .sevensec-title {
+      padding: 15px; }
+      .section-seven .first-component .sevensec-title h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: "Lato Regular";
+        margin: 40px 0 15px 0; }
+      .section-seven .first-component .sevensec-title h4 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: "Lato Regular";
+        margin-bottom: 20px; }
+    .section-seven .first-component p {
+      width: 700px;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  .section-seven .second-component .row {
+    margin: 0 auto; }
+    .section-seven .second-component .row .col-3 {
+      padding: 20px;
+      max-width: 250px;
+      margin: 2px;
+      height: 310px; }
+    .section-seven .second-component .row .col-4 {
+      padding: 20px;
+      max-width: 310px;
+      margin: 20px;
+      height: 310px; }
