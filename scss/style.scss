@@ -132,7 +132,7 @@
             box-sizing: border-box;
             transition: all 500ms ease; 
             &:hover{
-                background-color: #3a7999;;
+                background-color:red;
             }
         }
     }
@@ -278,4 +278,39 @@
             }
         }
     }
+}
+.section-six{
+    height:400px;
+    background-image: url('../img/coffe1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(8px 8px 10px black);
+    z-index: 0;
+    .quote-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        img{
+            width: 60px;
+            z-index: 1;
+        }
+    }
+    .quotes{
+        p{
+            width: 500px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px auto;
+        }
+        h3{
+            width: 100px;
+            margin: 0 auto;
+            font-size: 15px;
+            color: white;
+        }
+    }
+    
 }
