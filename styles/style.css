@@ -300,6 +300,9 @@ a {
   background-size: cover;
   filter: brightness(50%);
   z-index: 0; }
+  .section-six img {
+    width: 100%;
+    height: 100%; }
   .section-six .quote-icon {
     display: flex;
     justify-content: center;
