@@ -315,7 +315,6 @@
             color: white;
         }
     }
-    
 }
 
 .section-seven{
@@ -351,10 +350,24 @@
         .row{
             margin: 0 auto;
             .col-3{
-                padding: 20px;
                 max-width: 250px;
-                margin: 2px;
+                margin: 12px;
                 height: 310px;
+                padding: 0;
+                position: relative;
+                .pic-div{
+                    background-color: black;
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    p{
+                        text-align: center;
+                        color: white;
+                        font-size: 25px;
+                        font-family: Verdana;
+                        padding: 15px;
+                    }
+                }
             }
             .col-4{
                 padding: 20px;
@@ -363,5 +376,26 @@
                 height: 310px;
             }
         }
+            .div1{
+                background-image: url('../img/img1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .div2{
+                background-image: url('../img/img2.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .div3{
+                background-image: url('../img/img3.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .div4{
+                background-image: url('../img/img4.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        
     }
 }

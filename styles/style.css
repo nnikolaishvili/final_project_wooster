@@ -349,12 +349,40 @@ a {
   .section-seven .second-component .row {
     margin: 0 auto; }
     .section-seven .second-component .row .col-3 {
-      padding: 20px;
       max-width: 250px;
-      margin: 2px;
-      height: 310px; }
+      margin: 12px;
+      height: 310px;
+      padding: 0;
+      position: relative; }
+      .section-seven .second-component .row .col-3 .pic-div {
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 100%; }
+        .section-seven .second-component .row .col-3 .pic-div p {
+          text-align: center;
+          color: white;
+          font-size: 25px;
+          font-family: Verdana;
+          padding: 15px; }
     .section-seven .second-component .row .col-4 {
       padding: 20px;
       max-width: 310px;
       margin: 20px;
       height: 310px; }
+  .section-seven .second-component .div1 {
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .section-seven .second-component .div2 {
+    background-image: url("../img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .section-seven .second-component .div3 {
+    background-image: url("../img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .section-seven .second-component .div4 {
+    background-image: url("../img/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
