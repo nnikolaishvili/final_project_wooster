@@ -68,6 +68,12 @@ a {
   height: 100%;
   padding: 1px 20px; }
 
+.line {
+  background-color: black;
+  width: 87px;
+  height: 1px;
+  margin: 0 auto 50px auto; }
+
 .first-section {
   background-image: url("../img/header.jpg");
   background-size: cover;
@@ -91,11 +97,6 @@ a {
     font-family: 'montserat'; }
     .first-section .p_button .first-p {
       margin-bottom: 45px; }
-    .first-section .p_button .line {
-      background-color: black;
-      width: 87px;
-      height: 1px;
-      margin: 0 auto 50px auto; }
     .first-section .p_button .second-p {
       margin-bottom: 50px;
       font-size: 40px;
@@ -105,7 +106,6 @@ a {
       height: 60px;
       background: none;
       border: 2px solid black;
-      color: black;
       padding: 10px;
       font-size: 18px;
       border-radius: 2px;
@@ -221,10 +221,41 @@ a {
     justify-content: center;
     flex-direction: column;
     text-align: center; }
-  .section-five .second-component .col-4 {
-    padding: 20px;
-    max-width: 270px;
-    margin: 20px; }
+    .section-five .first-component .fivesec-title {
+      padding: 15px; }
+      .section-five .first-component .fivesec-title h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: "Lato Regular";
+        margin: 40px 0 15px 0; }
+      .section-five .first-component .fivesec-title h4 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: "Lato Regular";
+        margin-bottom: 20px; }
+    .section-five .first-component p {
+      width: 700px;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+    .section-five .first-component .button {
+      width: 150px;
+      height: 50px;
+      margin: 10px;
+      border: 2px solid black;
+      background-color: white;
+      padding: 10px;
+      font-size: 15px;
+      font-family: "Lato Regular";
+      transition: all 500ms ease; }
+      .section-five .first-component .button:hover {
+        background-color: #3a7999; }
+  .section-five .second-component .row {
+    margin: 0 auto; }
+    .section-five .second-component .row .col-4 {
+      padding: 20px;
+      max-width: 310px;
+      margin: 20px;
+      height: 400px; }
   .section-five .second-component .div1 {
     background-image: url("../img/img1.jpg");
     background-repeat: no-repeat;
