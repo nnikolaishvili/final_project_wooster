@@ -433,7 +433,7 @@ a {
       text-transform: uppercase; }
 
 .section-nine {
-  height: 900px; }
+  height: 700px; }
   .section-nine .first-component {
     display: flex;
     justify-content: center;
@@ -464,3 +464,34 @@ a {
       .section-nine .second-component .icon-div i {
         font-size: 25px;
         margin-bottom: 30px; }
+    .section-nine .second-component form {
+      width: 100%;
+      height: 280px;
+      margin-top: 60px; }
+      .section-nine .second-component form .buttonsubmit {
+        padding: 14px;
+        display: flex;
+        justify-content: flex-end; }
+        .section-nine .second-component form .buttonsubmit button {
+          width: 120px;
+          border-radius: 0;
+          background-color: black; }
+
+.final-section {
+  height: 260px;
+  background-color: black; }
+  .final-section .quote-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; }
+  .final-section nav {
+    display: flex;
+    justify-content: center; }
+    .final-section nav ul {
+      display: flex; }
+      .final-section nav ul li {
+        margin: 20px; }
+  .final-section h5 {
+    text-align: center;
+    color: white; }
