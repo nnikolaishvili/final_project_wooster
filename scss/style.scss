@@ -2,6 +2,21 @@
 @import 'variables.scss';
 @import 'fonts.scss';
 
+// futurely extended
+%button_and_hover {
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+    &:hover{
+        background-color: #3a7999;;
+    }
+  }
+
 
 .container{
     width: 1170px;
@@ -10,7 +25,7 @@
     padding: 1px 20px;
 }
 .line{
-    background-color: black;
+    background-color: $main-colour-black;
     width: 87px;
     height: 1px;
     margin: 0 auto 50px auto;
@@ -50,22 +65,12 @@
         button{
             width: 228px;
             height: 60px;
-            background: none;
-            border: 2px solid black;
-            padding: 10px;
-            font-size: 18px;
-            border-radius: 2px;
-            position: relative;
-            box-sizing: border-box;
-            transition: all 500ms ease; 
-            &:hover{
-                background-color: #3a7999;;
-            }
+            @extend %button_and_hover;
         }
     }
 }
 .second-section{
-    background-color: black;
+    background-color: $main-colour-black;
     padding: 30px;
         .sec-section-p-but{
         width: 840px;
@@ -76,13 +81,13 @@
         font-family: 'Lato Regular';
         text-transform: uppercase;
         p{
-            color: white;
+            color: $main-colour-white;
             font-size: 13px;
         }
         button{
             width: 200px;
             height: 54px;
-            background-color: white;
+            background-color: $main-colour-white;
             color: black;
             border: 3px solid #3a7999;
             border-radius: 25px;
@@ -114,7 +119,7 @@
             margin-bottom: 50px;
             width: 30px;
             height: 2px;
-            background-color: black;
+            background-color: $main-colour-black;
         }
         .third-sec-p{
             margin-bottom: 40px;
@@ -124,7 +129,7 @@
             height: 50px;
             background: none;
             border: 2px solid black;
-            color: black;
+            color: $main-colour-black;
             padding: 10px;
             font-size: 14px;
             border-radius: 2px;
@@ -153,7 +158,7 @@
     video{
         position: absolute;
         width: 100%;
-        background-color: black;
+        background-color: $main-colour-black;
         height: 100%;
       }
       .content {
@@ -164,7 +169,7 @@
         align-items: center;
         top: 115px;
         h1{
-            color: #f1f1f1;
+            color: $main-colour-white;
             font-size: 30px;
             font-weight: bold;
             font-family: "Lato Regular";
@@ -213,7 +218,7 @@
             height: 50px;
             margin: 10px;
             border: 2px solid black;
-            background-color: white;
+            background-color: $main-colour-white;
             padding: 10px;
             font-size: 15px;
             font-family: "Lato Regular";
@@ -268,7 +273,7 @@
             width: 150px;
             height: 50px;
             border: 2px solid black;
-            background-color: white;
+            background-color: $main-colour-white;
             padding: 10px;
             font-size: 15px;
             font-family: "Lato Regular";
@@ -302,7 +307,7 @@
     .quotes{
         p{
             width: 500px;
-            color: white;
+            color: $main-colour-white;
             font-size: 25px;
             font-weight: bold;
             text-align: center;
@@ -312,7 +317,7 @@
             width: 100px;
             margin: 0 auto;
             font-size: 15px;
-            color: white;
+            color: $main-colour-white;
         }
     }
 }
@@ -356,13 +361,13 @@
                 padding: 0;
                 position: relative;
                 .pic-div{
-                    background-color: black;
+                    background-color: $main-colour-black;
                     position: absolute;
                     bottom: 0;
                     width: 100%;
                     p{
                         text-align: center;
-                        color: white;
+                        color: $main-colour-white;
                         font-size: 25px;
                         font-family: Verdana;
                         padding: 15px;
@@ -412,14 +417,14 @@
 }
 .section-eight{
     height: 210px;
-    background-color: black;
+    background-color: $main-colour-black;
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
         .h_inp_button{
             h2{
-                color: white;
+                color: $main-colour-white;
                 font-size: 17px;
                 text-transform: uppercase;
                 font-family: "Lato Regular";
@@ -427,8 +432,8 @@
                 margin-bottom: 15px;
             }
             input{
-                background-color: black;
-                border: 1px solid white;
+                background-color: $main-colour-black;
+                border: 1px solid $main-colour-white;
                 border-radius: 0;
                 width: 740px;
                 height: 40px;
@@ -442,8 +447,8 @@
             }
             button{
                 border-radius: 0;
-                background: white;
-                color: black;
+                background: $main-colour-white;
+                color: $main-colour-black;
                 width: 120px;
                 height: 40px;
                 font-family: "Lato Regular";
@@ -504,7 +509,7 @@
                 button{
                     width: 120px;
                     border-radius: 0;
-                    background-color: black;
+                    background-color: $main-colour-black;
                 }
             }
         }
@@ -512,7 +517,7 @@
 }
 .final-section{
     height: 260px;
-    background-color: black;
+    background-color: $main-colour-black;
     .quote-icon{
         display: flex;
         justify-content: center;
@@ -531,6 +536,6 @@
     }
     h5{
         text-align: center;
-        color: white;
+        color: $main-colour-white;
     }
 }

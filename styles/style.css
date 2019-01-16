@@ -62,6 +62,18 @@ a {
   font-weight: normal;
   font-style: normal; }
 
+.first-section .p_button button {
+  background: none;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 2px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; }
+  .first-section .p_button button:hover {
+    background-color: #3a7999; }
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -103,17 +115,7 @@ a {
       font-weight: bold; }
     .first-section .p_button button {
       width: 228px;
-      height: 60px;
-      background: none;
-      border: 2px solid black;
-      padding: 10px;
-      font-size: 18px;
-      border-radius: 2px;
-      position: relative;
-      box-sizing: border-box;
-      transition: all 500ms ease; }
-      .first-section .p_button button:hover {
-        background-color: #3a7999; }
+      height: 60px; }
 
 .second-section {
   background-color: black;
@@ -201,7 +203,7 @@ a {
     align-items: center;
     top: 115px; }
     .fourth-section .content h1 {
-      color: #f1f1f1;
+      color: white;
       font-size: 30px;
       font-weight: bold;
       font-family: "Lato Regular";
