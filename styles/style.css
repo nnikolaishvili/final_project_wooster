@@ -455,6 +455,12 @@ a {
       width: 700px;
       margin: 0 auto;
       margin-bottom: 20px; }
-  .section-nine .second-component i {
-    width: 20px;
-    height: 20px; }
+  .section-nine .second-component {
+    margin-top: 30px; }
+    .section-nine .second-component .icon-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .section-nine .second-component .icon-div i {
+        font-size: 25px;
+        margin-bottom: 30px; }
