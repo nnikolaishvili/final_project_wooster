@@ -61,8 +61,8 @@
     <div class="content">
         <h1>See our video</h1>
         <div id="myBtn" onclick="myFunction()">
-            <img id="img1" class="img-button" src="img/play.png" alt="play">
-            <img id="img2" class="img-button" src="img/pause.png" alt="pause" style="display:none">
+            <img id="img1" class="img-button" src="img/play.png" alt="play" style="display:none">
+            <img id="img2" class="img-button" src="img/pause.png" alt="pause">
         </div>   
     </div>
 </section>
@@ -159,14 +159,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script>
 var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
-    document.getElementsByClassName("img-button")[0].src = "img/play.png";
+    document.getElementsByClassName("img-button")[1].src = "img/pause.png";
   } else {
     video.pause();
-    document.getElementsByClassName("img-button")[0].src = "img/pause.png";
+    document.getElementsByClassName("img-button")[1].src = "img/play.png";
   }
 }
 </script>
