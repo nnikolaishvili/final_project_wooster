@@ -228,11 +228,9 @@ a {
     height: 100%; }
   .fourth-section .content {
     position: absolute;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    top: 115px; }
+    align-items: center; }
     .fourth-section .content h1 {
       color: white;
       font-size: 30px;
