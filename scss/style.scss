@@ -27,7 +27,7 @@
 .line{
     background-color: $main-colour-black;
     width: 87px;
-    height: 1px;
+    height: 2px;
     margin: 0 auto 50px auto;
 }
 .first-section{
@@ -45,6 +45,7 @@
         i{
             font-size: 25px;
             line-height: 75px;
+            color: $main-colour-black;
         }
     }
         .p_button{
@@ -55,6 +56,8 @@
             text-transform: uppercase;
             font-family: 'montserat';
             .first-p{
+                font-family: "Lato Regular";
+                font-weight: bold;
                 margin-bottom: 45px;
         }
         .second-p{
@@ -66,6 +69,7 @@
             width: 228px;
             height: 60px;
             @extend %button_and_hover;
+            color:$main-colour-white;
         }
     }
 }
@@ -83,18 +87,20 @@
         p{
             color: $main-colour-white;
             font-size: 13px;
+            font-family: "Lato Regular";
         }
         button{
             width: 200px;
             height: 54px;
             background-color: $main-colour-white;
             color: black;
-            border: 3px solid #3a7999;
+            border: 3px solid white;
             border-radius: 25px;
+            transition: all 500ms ease; 
             &:hover{
                 border: 3px dotted #3a7999;
-                color: #3a7999;
-                background: rgba(0,0,0,0);
+                background: rgba(64, 168, 23, 0.74);
+                color: $main-colour-white;
             }
         }
     }
@@ -336,6 +342,7 @@
                 text-transform: uppercase;
                 font-family: "Lato Regular";
                 margin: 40px 0 15px 0;
+                font-weight: bold;
             }
             h4{
                 font-size: 14px;
@@ -472,6 +479,7 @@
                 text-transform: uppercase;
                 font-family: "Lato Regular";
                 margin: 40px 0 15px 0;
+                font-weight: bold;
             }
             h4{
                 font-size: 14px;
@@ -531,6 +539,9 @@
             display: flex;
             li{
                 margin: 20px;
+                i{
+                    color: $main-colour-white;
+                }
             }
         }
     }
