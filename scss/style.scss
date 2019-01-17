@@ -17,7 +17,11 @@
     }
   }
 
-
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+}
 .container{
     width: 1170px;
     margin: 0 auto;
@@ -28,7 +32,7 @@
     background-color: $main-colour-black;
     width: 87px;
     height: 2px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 80px auto;
 }
 .first-section{
     background-image: url('../img/header.jpg');
@@ -191,19 +195,18 @@
         }
     }
 .section-five{
-    height: 1170px;
+    height: 1490px;
     .first-component{
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
         .fivesec-title{
-            padding: 15px;
             h1{
                 font-size: 30px;
                 text-transform: uppercase;
                 font-family: "Lato Regular";
-                margin: 40px 0 15px 0;
+                margin: 75px 0 15px 0;
             }
             h4{
                 font-size: 14px;
@@ -211,35 +214,46 @@
                 font-family: "Lato Regular";
                 margin-bottom: 20px;
             }
+            .line{
+                background-color: black;
+                width: 87px;
+                height: 2px;
+                margin: 0 auto 80px auto;
+            }
         }
         p{
-            width: 700px;
+            width: 690px;
             margin: 0 auto;
-            margin-bottom: 20px;
+            margin-bottom: 77px;
         }
-        .button{
-            width: 150px;
-            height: 50px;
-            margin: 10px;
-            border: 2px solid black;
-            background-color: $main-colour-white;
-            padding: 10px;
-            font-size: 15px;
-            font-family: "Lato Regular";
-            transition: all 500ms ease; 
-            &:hover{
-                background-color: #3a7999;;
+        .buttons{
+            margin-bottom: 80px;
+            .button{
+                width: 140px;
+                height: 50px;
+                margin: 10px;
+                border: 2px solid black;
+                background-color: $main-colour-white;
+                padding: 10px;
+                font-size: 15px;
+                font-family: "Lato Regular";
+                transition: all 500ms ease; 
+                &:hover{
+                    background-color: #3a7999;;
+                }
             }
+        
         }
     }
     .second-component{
+        height: 980px;
         .row{
             margin: 0 auto;
             .col-4{
                 padding: 20px;
-                max-width: 310px;
+                max-width: 370px;
                 margin: 20px;
-                height: 310px;
+                height: 370px;
             }
         }
         .div1{
@@ -273,13 +287,12 @@
             background-size: cover;
         }
         .see_more_btn{
-            margin: 15px auto;
-            width: 150px;
+            margin: 35px auto;
+            width: 170px;
             height: 50px;
             border: 2px solid black;
             background-color: $main-colour-white;
             padding: 10px;
-            font-size: 15px;
             font-family: "Lato Regular";
             transition: all 500ms ease; 
             &:hover{
@@ -293,7 +306,6 @@
     background-image: url('../img/coffe1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
     img{
         width: 100%;
         height: 100%;
@@ -302,10 +314,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 80px;
         img{
             width: 60px;
-            z-index: 1;
         }
     }
     .quotes{
@@ -315,7 +326,7 @@
             font-size: 25px;
             font-weight: bold;
             text-align: center;
-            margin: 20px auto;
+            margin: 60px auto;
         }
         h3{
             width: 100px;
@@ -327,26 +338,27 @@
 }
 
 .section-seven{
-    height: 900px;
+    height: 100%;
     .first-component{
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        margin-bottom: 70px;
         .sevensec-title{
             padding: 15px;
             h1{
                 font-size: 30px;
                 text-transform: uppercase;
                 font-family: "Lato Regular";
-                margin: 40px 0 15px 0;
+                margin: 75px 0 22px 0;
                 font-weight: bold;
             }
             h4{
                 font-size: 14px;
                 text-transform: uppercase;
                 font-family: "Lato Regular";
-                margin-bottom: 20px;
+                margin-bottom: 25px;
             }
         }
         p{
@@ -357,46 +369,52 @@
     
     }
     .second-component{
+        height: 685px;
+        padding-top: 70px;
         .row{
-            margin: 0 auto;
             .col-3{
-                max-width: 250px;
+                max-width: 255px;
                 margin: 12px;
-                height: 310px;
+                height: 350px;
                 padding: 0;
                 position: relative;
                 .pic-div{
                     background-color: $main-colour-black;
                     position: absolute;
+                    height: 70px;
                     bottom: 0;
                     width: 100%;
                     p{
-                        text-align: center;
                         color: $main-colour-white;
                         font-size: 25px;
                         font-family: Verdana;
-                        padding: 15px;
+                        width: 100%;
+                        line-height: 70px;
                     }
                 }
             }
-            .col-4{
-                padding: 20px;
-                max-width: 310px;
-                margin: 20px;
-                height: 260px;
-                .col4h2{
-                    font-family: "Lato Regular";
-                    font-size: 22px;
-                    margin-bottom: 20px;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                }
-                .col4p{
-                    font-family: "Laro Regular";
-                    font-size: 16px;
+        }
+            .left{
+                text-align: left;
+                padding-top: 70px;
+                .col-4{
+                    padding: 20px;
+                    max-width: 360px;
+                    height: 260px;
+                    .col4h2{
+                        font-family: "Lato Regular";
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    .col4p{
+                        font-family: "Laro Regular";
+                        font-size: 16px;
+                        width: 100%;
+                    }
                 }
             }
-        }
             .div1{
                 background-image: url('../img/img1.jpg');
                 background-repeat: no-repeat;
@@ -417,11 +435,11 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-        
+        }
     }
-}
+
 .section-eight{
-    height: 210px;
+    height: 250px;
     background-color: $main-colour-black;
     .container{
         display: flex;
@@ -434,14 +452,14 @@
                 text-transform: uppercase;
                 font-family: "Lato Regular";
                 font-weight: bold;
-                margin-bottom: 15px;
+                margin-bottom: 30px;
             }
             input{
                 background-color: $main-colour-black;
                 border: 1px solid $main-colour-white;
                 border-radius: 0;
-                width: 740px;
-                height: 40px;
+                width: 770px;
+                height: 50px;
                 margin-right: 25px;
                 padding-left: 40px;
                 background-image: url("../img/phone.png");
@@ -454,8 +472,8 @@
                 border-radius: 0;
                 background: $main-colour-white;
                 color: $main-colour-black;
-                width: 120px;
-                height: 40px;
+                width: 170px;
+                height: 50px;
                 font-family: "Lato Regular";
                 text-transform: uppercase;
             }
@@ -464,7 +482,7 @@
 }
 
 .section-nine{
-    height: 700px;
+    height: 915px;
     .first-component{
         display: flex;
         justify-content: center;
@@ -476,7 +494,7 @@
                 font-size: 30px;
                 text-transform: uppercase;
                 font-family: "Lato Regular";
-                margin: 40px 0 15px 0;
+                margin: 70px 0 20px 0;
                 font-weight: bold;
             }
             h4{
@@ -491,10 +509,8 @@
             margin: 0 auto;
             margin-bottom: 20px;
         }
-    
     }
     .second-component{
-        margin-top: 30px;
         .icon-div{
             display: flex;
             flex-direction: column;

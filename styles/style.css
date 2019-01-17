@@ -99,6 +99,11 @@ a {
   .first-section .p_button button:hover {
     background-color: #3a7999; }
 
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 40px; }
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -109,7 +114,7 @@ a {
   background-color: black;
   width: 87px;
   height: 2px;
-  margin: 0 auto 50px auto; }
+  margin: 0 auto 80px auto; }
 
 .first-section {
   background-image: url("../img/header.jpg");
@@ -246,90 +251,95 @@ a {
       height: 100%; }
 
 .section-five {
-  height: 1170px; }
+  height: 1490px; }
   .section-five .first-component {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center; }
-    .section-five .first-component .fivesec-title {
-      padding: 15px; }
-      .section-five .first-component .fivesec-title h1 {
-        font-size: 30px;
-        text-transform: uppercase;
-        font-family: "Lato Regular";
-        margin: 40px 0 15px 0; }
-      .section-five .first-component .fivesec-title h4 {
-        font-size: 14px;
-        text-transform: uppercase;
-        font-family: "Lato Regular";
-        margin-bottom: 20px; }
-    .section-five .first-component p {
-      width: 700px;
-      margin: 0 auto;
+    .section-five .first-component .fivesec-title h1 {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-family: "Lato Regular";
+      margin: 75px 0 15px 0; }
+    .section-five .first-component .fivesec-title h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-family: "Lato Regular";
       margin-bottom: 20px; }
-    .section-five .first-component .button {
-      width: 150px;
+    .section-five .first-component .fivesec-title .line {
+      background-color: black;
+      width: 87px;
+      height: 2px;
+      margin: 0 auto 80px auto; }
+    .section-five .first-component p {
+      width: 690px;
+      margin: 0 auto;
+      margin-bottom: 77px; }
+    .section-five .first-component .buttons {
+      margin-bottom: 80px; }
+      .section-five .first-component .buttons .button {
+        width: 140px;
+        height: 50px;
+        margin: 10px;
+        border: 2px solid black;
+        background-color: white;
+        padding: 10px;
+        font-size: 15px;
+        font-family: "Lato Regular";
+        transition: all 500ms ease; }
+        .section-five .first-component .buttons .button:hover {
+          background-color: #3a7999; }
+  .section-five .second-component {
+    height: 980px; }
+    .section-five .second-component .row {
+      margin: 0 auto; }
+      .section-five .second-component .row .col-4 {
+        padding: 20px;
+        max-width: 370px;
+        margin: 20px;
+        height: 370px; }
+    .section-five .second-component .div1 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .div2 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .div3 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .div4 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .div5 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .div6 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-five .second-component .see_more_btn {
+      margin: 35px auto;
+      width: 170px;
       height: 50px;
-      margin: 10px;
       border: 2px solid black;
       background-color: white;
       padding: 10px;
-      font-size: 15px;
       font-family: "Lato Regular";
       transition: all 500ms ease; }
-      .section-five .first-component .button:hover {
-        background-color: #3a7999; }
-  .section-five .second-component .row {
-    margin: 0 auto; }
-    .section-five .second-component .row .col-4 {
-      padding: 20px;
-      max-width: 310px;
-      margin: 20px;
-      height: 310px; }
-  .section-five .second-component .div1 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .div2 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .div3 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .div4 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .div5 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .div6 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-five .second-component .see_more_btn {
-    margin: 15px auto;
-    width: 150px;
-    height: 50px;
-    border: 2px solid black;
-    background-color: white;
-    padding: 10px;
-    font-size: 15px;
-    font-family: "Lato Regular";
-    transition: all 500ms ease; }
-    .section-five .second-component .see_more_btn:hover {
-      background-color: yellow; }
+      .section-five .second-component .see_more_btn:hover {
+        background-color: yellow; }
 
 .section-six {
   height: 400px;
   background-image: url("../img/coffe1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 0; }
+  background-size: cover; }
   .section-six img {
     width: 100%;
     height: 100%; }
@@ -337,17 +347,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px; }
+    padding-top: 80px; }
     .section-six .quote-icon img {
-      width: 60px;
-      z-index: 1; }
+      width: 60px; }
   .section-six .quotes p {
     width: 500px;
     color: white;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    margin: 20px auto; }
+    margin: 60px auto; }
   .section-six .quotes h3 {
     width: 100px;
     margin: 0 auto;
@@ -355,81 +364,87 @@ a {
     color: white; }
 
 .section-seven {
-  height: 900px; }
+  height: 100%; }
   .section-seven .first-component {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 70px; }
     .section-seven .first-component .sevensec-title {
       padding: 15px; }
       .section-seven .first-component .sevensec-title h1 {
         font-size: 30px;
         text-transform: uppercase;
         font-family: "Lato Regular";
-        margin: 40px 0 15px 0;
+        margin: 75px 0 22px 0;
         font-weight: bold; }
       .section-seven .first-component .sevensec-title h4 {
         font-size: 14px;
         text-transform: uppercase;
         font-family: "Lato Regular";
-        margin-bottom: 20px; }
+        margin-bottom: 25px; }
     .section-seven .first-component p {
       width: 700px;
       margin: 0 auto;
       margin-bottom: 20px; }
-  .section-seven .second-component .row {
-    margin: 0 auto; }
+  .section-seven .second-component {
+    height: 685px;
+    padding-top: 70px; }
     .section-seven .second-component .row .col-3 {
-      max-width: 250px;
+      max-width: 255px;
       margin: 12px;
-      height: 310px;
+      height: 350px;
       padding: 0;
       position: relative; }
       .section-seven .second-component .row .col-3 .pic-div {
         background-color: black;
         position: absolute;
+        height: 70px;
         bottom: 0;
         width: 100%; }
         .section-seven .second-component .row .col-3 .pic-div p {
-          text-align: center;
           color: white;
           font-size: 25px;
           font-family: Verdana;
-          padding: 15px; }
-    .section-seven .second-component .row .col-4 {
-      padding: 20px;
-      max-width: 310px;
-      margin: 20px;
-      height: 260px; }
-      .section-seven .second-component .row .col-4 .col4h2 {
-        font-family: "Lato Regular";
-        font-size: 22px;
-        margin-bottom: 20px;
-        font-weight: bold;
-        text-transform: uppercase; }
-      .section-seven .second-component .row .col-4 .col4p {
-        font-family: "Laro Regular";
-        font-size: 16px; }
-  .section-seven .second-component .div1 {
-    background-image: url("../img/img1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-seven .second-component .div2 {
-    background-image: url("../img/img2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-seven .second-component .div3 {
-    background-image: url("../img/img3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .section-seven .second-component .div4 {
-    background-image: url("../img/img4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; }
+          width: 100%;
+          line-height: 70px; }
+    .section-seven .second-component .left {
+      text-align: left;
+      padding-top: 70px; }
+      .section-seven .second-component .left .col-4 {
+        padding: 20px;
+        max-width: 360px;
+        height: 260px; }
+        .section-seven .second-component .left .col-4 .col4h2 {
+          font-family: "Lato Regular";
+          font-size: 22px;
+          margin-bottom: 20px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .section-seven .second-component .left .col-4 .col4p {
+          font-family: "Laro Regular";
+          font-size: 16px;
+          width: 100%; }
+    .section-seven .second-component .div1 {
+      background-image: url("../img/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-seven .second-component .div2 {
+      background-image: url("../img/img2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-seven .second-component .div3 {
+      background-image: url("../img/img3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .section-seven .second-component .div4 {
+      background-image: url("../img/img4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 .section-eight {
-  height: 210px;
+  height: 250px;
   background-color: black; }
   .section-eight .container {
     display: flex;
@@ -441,13 +456,13 @@ a {
       text-transform: uppercase;
       font-family: "Lato Regular";
       font-weight: bold;
-      margin-bottom: 15px; }
+      margin-bottom: 30px; }
     .section-eight .container .h_inp_button input {
       background-color: black;
       border: 1px solid white;
       border-radius: 0;
-      width: 740px;
-      height: 40px;
+      width: 770px;
+      height: 50px;
       margin-right: 25px;
       padding-left: 40px;
       background-image: url("../img/phone.png");
@@ -459,13 +474,13 @@ a {
       border-radius: 0;
       background: white;
       color: black;
-      width: 120px;
-      height: 40px;
+      width: 170px;
+      height: 50px;
       font-family: "Lato Regular";
       text-transform: uppercase; }
 
 .section-nine {
-  height: 700px; }
+  height: 915px; }
   .section-nine .first-component {
     display: flex;
     justify-content: center;
@@ -477,7 +492,7 @@ a {
         font-size: 30px;
         text-transform: uppercase;
         font-family: "Lato Regular";
-        margin: 40px 0 15px 0;
+        margin: 70px 0 20px 0;
         font-weight: bold; }
       .section-nine .first-component .ninesec-title h4 {
         font-size: 14px;
@@ -488,27 +503,25 @@ a {
       width: 700px;
       margin: 0 auto;
       margin-bottom: 20px; }
-  .section-nine .second-component {
-    margin-top: 30px; }
-    .section-nine .second-component .icon-div {
+  .section-nine .second-component .icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-nine .second-component .icon-div i {
+      font-size: 25px;
+      margin-bottom: 30px; }
+  .section-nine .second-component form {
+    width: 100%;
+    height: 280px;
+    margin-top: 60px; }
+    .section-nine .second-component form .buttonsubmit {
+      padding: 14px;
       display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .section-nine .second-component .icon-div i {
-        font-size: 25px;
-        margin-bottom: 30px; }
-    .section-nine .second-component form {
-      width: 100%;
-      height: 280px;
-      margin-top: 60px; }
-      .section-nine .second-component form .buttonsubmit {
-        padding: 14px;
-        display: flex;
-        justify-content: flex-end; }
-        .section-nine .second-component form .buttonsubmit button {
-          width: 120px;
-          border-radius: 0;
-          background-color: black; }
+      justify-content: flex-end; }
+      .section-nine .second-component form .buttonsubmit button {
+        width: 120px;
+        border-radius: 0;
+        background-color: black; }
 
 .final-section {
   height: 260px;
