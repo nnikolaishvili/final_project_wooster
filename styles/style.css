@@ -179,28 +179,28 @@ a {
         background: rgba(64, 168, 23, 0.74);
         color: white; }
 
-.third-section {
+.third-section .container {
   height: 570px;
   display: flex;
   justify-content: space-between;
   font-family: "Lato Regular"; }
-  .third-section .third-section-h-div {
+  .third-section .container .third-section-h-div {
     width: 500px; }
-    .third-section .third-section-h-div h1 {
+    .third-section .container .third-section-h-div h1 {
       text-transform: uppercase;
       margin: 75px auto 20px auto;
       font-size: 22px;
       font-weight: bold; }
-    .third-section .third-section-h-div h3 {
+    .third-section .container .third-section-h-div h3 {
       margin-bottom: 20px; }
-    .third-section .third-section-h-div div {
+    .third-section .container .third-section-h-div div {
       margin-bottom: 50px;
       width: 30px;
       height: 2px;
       background-color: black; }
-    .third-section .third-section-h-div .third-sec-p {
+    .third-section .container .third-section-h-div .third-sec-p {
       margin-bottom: 40px; }
-    .third-section .third-section-h-div button {
+    .third-section .container .third-section-h-div button {
       width: 195px;
       height: 50px;
       background: none;
@@ -212,9 +212,9 @@ a {
       position: relative;
       box-sizing: border-box;
       transition: all 500ms ease; }
-      .third-section .third-section-h-div button:hover {
+      .third-section .container .third-section-h-div button:hover {
         background-color: red; }
-  .third-section .third-section-img-div {
+  .third-section .container .third-section-img-div {
     background-image: url("../img/typewriter.jpg");
     background-size: cover;
     width: 570px;
@@ -295,10 +295,9 @@ a {
     .section-five .second-component .row {
       margin: 0 auto; }
       .section-five .second-component .row .col-4 {
-        padding: 20px;
-        max-width: 370px;
-        margin: 20px;
-        height: 370px; }
+        max-width: 350px;
+        margin: 8px;
+        height: 350px; }
     .section-five .second-component .div1 {
       background-image: url("../img/img1.jpg");
       background-repeat: no-repeat;
@@ -324,7 +323,7 @@ a {
       background-repeat: no-repeat;
       background-size: cover; }
     .section-five .second-component .see_more_btn {
-      margin: 35px auto;
+      margin: 100px auto;
       width: 170px;
       height: 50px;
       border: 2px solid black;
@@ -503,25 +502,27 @@ a {
       width: 700px;
       margin: 0 auto;
       margin-bottom: 20px; }
-  .section-nine .second-component .icon-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .section-nine .second-component .icon-div i {
-      font-size: 25px;
-      margin-bottom: 30px; }
-  .section-nine .second-component form {
-    width: 100%;
-    height: 280px;
-    margin-top: 60px; }
-    .section-nine .second-component form .buttonsubmit {
-      padding: 14px;
+  .section-nine .second-component {
+    margin-top: 50px; }
+    .section-nine .second-component .icon {
       display: flex;
-      justify-content: flex-end; }
-      .section-nine .second-component form .buttonsubmit button {
-        width: 120px;
-        border-radius: 0;
-        background-color: black; }
+      flex-direction: column;
+      align-items: center; }
+      .section-nine .second-component .icon i {
+        font-size: 25px;
+        margin-bottom: 30px; }
+    .section-nine .second-component form {
+      width: 100%;
+      height: 280px;
+      margin-top: 60px; }
+      .section-nine .second-component form .buttonsubmit {
+        padding: 14px;
+        display: flex;
+        justify-content: flex-end; }
+        .section-nine .second-component form .buttonsubmit button {
+          width: 120px;
+          border-radius: 0;
+          background-color: black; }
 
 .final-section {
   height: 260px;
