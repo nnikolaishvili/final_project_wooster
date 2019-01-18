@@ -557,6 +557,9 @@
                 margin: 20px;
                 i{
                     color: $main-colour-white;
+                    &:hover{
+                        font-size: 30px;
+                    }
                 }
             }
         }

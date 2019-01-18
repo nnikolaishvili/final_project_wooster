@@ -541,6 +541,8 @@ a {
         margin: 20px; }
         .final-section nav ul li i {
           color: white; }
+          .final-section nav ul li i:hover {
+            font-size: 30px; }
   .final-section h5 {
     text-align: center;
     color: white; }
