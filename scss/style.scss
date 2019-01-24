@@ -372,9 +372,10 @@
         height: 685px;
         padding-top: 70px;
         .row{
+            margin-left: 0;
             .col-3{
                 max-width: 255px;
-                margin: 12px;
+                margin: 10px;
                 height: 350px;
                 padding: 0;
                 position: relative;
@@ -396,7 +397,7 @@
         }
             .left{
                 text-align: left;
-                padding-top: 70px;
+                padding-top: 55px;
                 .col-4{
                     padding: 20px;
                     max-width: 360px;
