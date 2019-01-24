@@ -114,48 +114,50 @@
     display: flex;
     justify-content: space-between;
     font-family: "Lato Regular";
-    .third-section-h-div{
-        width: 500px;
-        h1{
-            text-transform: uppercase;
-            margin: 75px auto 20px auto;
-            font-size: 22px;
-            font-weight: bold;
-        }
-        h3{
-            margin-bottom: 20px;
-        }
-        div{
-            margin-bottom: 50px;
-            width: 30px;
-            height: 2px;
-            background-color: $main-colour-black;
-        }
-        .third-sec-p{
-            margin-bottom: 40px;
-        }
-        button{
-            width: 195px;
-            height: 50px;
-            background: none;
-            border: 2px solid black;
-            color: $main-colour-black;
-            padding: 10px;
-            font-size: 14px;
-            border-radius: 2px;
-            position: relative;
-            box-sizing: border-box;
-            transition: all 500ms ease; 
-            &:hover{
-                background-color:red;
+    .container{
+     display: flex;
+        .third-section-h-div{
+            width: 500px;
+            h1{
+                text-transform: uppercase;
+                margin: 75px auto 20px auto;
+                font-size: 22px;
+                font-weight: bold;
+            }
+            h3{
+                margin-bottom: 20px;
+            }
+            div{
+                margin-bottom: 50px;
+                width: 30px;
+                height: 2px;
+                background-color: $main-colour-black;
+            }
+            .third-sec-p{
+                margin-bottom: 40px;
+            }
+            button{
+                width: 195px;
+                height: 50px;
+                background: none;
+                border: 2px solid black;
+                color: $main-colour-black;
+                padding: 10px;
+                font-size: 14px;
+                border-radius: 2px;
+                position: relative;
+                box-sizing: border-box;
+                transition: all 500ms ease; 
+                &:hover{
+                    background-color:red;
+                }
             }
         }
-    }
-    .third-section-img-div{
-        background-image: url('../img/typewriter.jpg');
-        background-size: cover;
-        width: 570px;
-        height: auto;
+        .third-section-img-div{
+            background-image: url('../img/typewriter.jpg');
+            background-size: cover;
+            width: 630px;
+        }
     }
 }
 
@@ -257,32 +259,32 @@
             }
         }
         .div1{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/1.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         .div2{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         .div3{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/3.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         .div4{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/4.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         .div5{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/5.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
         .div6{
-            background-image: url('../img/img1.jpg');
+            background-image: url('../img/6.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -388,10 +390,11 @@
                     width: 100%;
                     p{
                         color: $main-colour-white;
-                        font-size: 25px;
+                        font-size: 18px;
                         font-family: Verdana;
                         width: 100%;
                         line-height: 70px;
+                        text-align: center;
                     }
                 }
             }
@@ -463,8 +466,8 @@
                 width: 770px;
                 height: 50px;
                 margin-right: 25px;
-                padding-left: 40px;
-                background-image: url("../img/phone.png");
+                padding-left: 50px;
+                background-image: url("../img/phone2.png");
                 background-repeat: no-repeat;
                 background-size: 25px 25px;
                 background-position-x: 10px;
