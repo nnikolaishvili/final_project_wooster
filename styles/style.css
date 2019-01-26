@@ -105,7 +105,6 @@ a {
   padding: 0 40px; }
 
 .container {
-  width: 1170px;
   margin: 0 auto;
   height: 100%;
   padding: 1px 20px; }
@@ -176,7 +175,7 @@ a {
       transition: all 500ms ease; }
       .second-section .sec-section-p-but button:hover {
         border: 3px dotted #3a7999;
-        background: rgba(64, 168, 23, 0.74);
+        background: #3a7999;
         color: white; }
 
 .third-section {
@@ -215,7 +214,7 @@ a {
         box-sizing: border-box;
         transition: all 500ms ease; }
         .third-section .container .third-section-h-div button:hover {
-          background-color: red; }
+          background-color: #3a7999; }
     .third-section .container .third-section-img-div {
       background-image: url("../img/typewriter.jpg");
       background-size: cover;
@@ -337,33 +336,37 @@ a {
         background-color: yellow; }
 
 .section-six {
-  height: 500px;
-  background-image: url("../img/coffe1.jpg");
+  height: 450px;
+  background-image: url("../img/coffe.jpg");
+  background-position-x: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed; }
-  .section-six img {
-    width: 100%;
+  .section-six .black-background {
+    background: rgba(0, 0, 0, 0.5);
     height: 100%; }
-  .section-six .quote-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px; }
-    .section-six .quote-icon img {
-      width: 60px; }
-  .section-six .quotes p {
-    width: 500px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    margin: 60px auto; }
-  .section-six .quotes h3 {
-    width: 100px;
-    margin: 0 auto;
-    font-size: 15px;
-    color: white; }
+    .section-six .black-background img {
+      width: 100%;
+      height: 100%; }
+    .section-six .black-background .quote-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 80px; }
+      .section-six .black-background .quote-icon img {
+        width: 60px; }
+    .section-six .black-background .quotes p {
+      width: 500px;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      margin: 60px auto; }
+    .section-six .black-background .quotes h3 {
+      width: 100px;
+      margin: 0 auto;
+      font-size: 15px;
+      color: white; }
 
 .section-seven {
   height: 100%; }
@@ -391,7 +394,7 @@ a {
       margin: 0 auto;
       margin-bottom: 20px; }
   .section-seven .second-component {
-    height: 685px;
+    height: 100%;
     padding-top: 35px;
     margin-bottom: 40px; }
     .section-seven .second-component .row {
@@ -403,7 +406,7 @@ a {
         padding: 0;
         position: relative; }
         .section-seven .second-component .row .col-3 .pic-div {
-          background-color: black;
+          background-color: rgba(0, 0, 0, 0.8);
           position: absolute;
           height: 70px;
           bottom: 0;
@@ -417,7 +420,7 @@ a {
             text-align: center; }
     .section-seven .second-component .left {
       text-align: left;
-      padding-top: 55px; }
+      padding-top: 80px; }
       .section-seven .second-component .left .col-4 {
         padding: 20px;
         max-width: 360px;
@@ -520,6 +523,8 @@ a {
       width: 100%;
       height: 280px;
       margin-top: 100px; }
+      .section-nine .second-component form textarea {
+        resize: none; }
       .section-nine .second-component form .buttonsubmit {
         padding: 14px;
         display: flex;
