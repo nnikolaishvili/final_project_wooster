@@ -118,7 +118,7 @@ a {
 .first-section {
   background-image: url("../img/header.jpg");
   background-size: cover;
-  height: 695px; }
+  height: 100%; }
   .first-section .header-container-div {
     padding: 10px;
     display: flex;
@@ -143,8 +143,9 @@ a {
       margin-bottom: 45px; }
     .first-section .p_button .second-p {
       margin-bottom: 50px;
-      font-size: 40px;
-      font-weight: bold; }
+      font-size: 45px;
+      font-weight: bold;
+      font-family: Montserat; }
     .first-section .p_button button {
       width: 228px;
       height: 60px;
@@ -154,12 +155,13 @@ a {
   background-color: black;
   padding: 30px; }
   .second-section .sec-section-p-but {
+    font-weight: bold;
     width: 840px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Lato Regular';
+    font-family: 'Montserat';
     text-transform: uppercase; }
     .second-section .sec-section-p-but p {
       color: white;
@@ -179,21 +181,30 @@ a {
         color: white; }
 
 .third-section {
-  height: 570px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   font-family: "Lato Regular"; }
   .third-section .container {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
     .third-section .container .third-section-h-div {
-      width: 500px; }
+      width: 500px;
+      padding-top: 40px; }
       .third-section .container .third-section-h-div h1 {
         text-transform: uppercase;
         margin: 75px auto 20px auto;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold; }
       .third-section .container .third-section-h-div h3 {
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5); }
+      .third-section .container .third-section-h-div p {
+        font-size: 14px;
+        font-family: "Lato Regular";
+        color: rgba(0, 0, 0, 0.6); }
       .third-section .container .third-section-h-div div {
         margin-bottom: 50px;
         width: 30px;
@@ -218,7 +229,8 @@ a {
     .third-section .container .third-section-img-div {
       background-image: url("../img/typewriter.jpg");
       background-size: cover;
-      width: 630px; }
+      width: 570px;
+      height: 570px; }
 
 .fourth-section {
   height: 570px;
@@ -234,21 +246,23 @@ a {
   .fourth-section .content {
     position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    top: 195px; }
     .fourth-section .content h1 {
       color: white;
       font-size: 30px;
       font-weight: bold;
       font-family: "Lato Regular";
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      margin-right: 30px; }
     .fourth-section .content #myBtn {
       border: none;
       width: 60px;
       height: 60px; }
     .fourth-section .content #img2 {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      cursor: pointer; }
 
 .section-five {
   height: 1490px; }
@@ -258,15 +272,17 @@ a {
     flex-direction: column;
     text-align: center; }
     .section-five .first-component .fivesec-title h1 {
-      font-size: 30px;
+      font-size: 23px;
       text-transform: uppercase;
-      font-family: "Lato Regular";
-      margin: 75px 0 15px 0; }
+      font-family: 'Montserat';
+      margin: 75px 0 15px 0;
+      font-weight: bold; }
     .section-five .first-component .fivesec-title h4 {
       font-size: 14px;
       text-transform: uppercase;
       font-family: "Lato Regular";
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: rgba(0, 0, 0, 0.4); }
     .section-five .first-component .fivesec-title .line {
       background-color: black;
       width: 87px;
@@ -275,7 +291,9 @@ a {
     .section-five .first-component p {
       width: 690px;
       margin: 0 auto;
-      margin-bottom: 77px; }
+      margin-bottom: 77px;
+      font-family: "Lato Regular";
+      color: rgba(0, 0, 0, 0.6); }
     .section-five .first-component .buttons {
       margin-bottom: 80px; }
       .section-five .first-component .buttons .button {
@@ -298,7 +316,11 @@ a {
         max-width: 330px;
         height: 340px;
         margin-right: 5px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        transition: 1s ease; }
+        .section-five .second-component .row .col-4:hover {
+          transform: scale(0.8);
+          transition: 1s ease; }
     .section-five .second-component .div1 {
       background-image: url("../img/1.jpg");
       background-repeat: no-repeat;
@@ -343,7 +365,7 @@ a {
   background-size: cover;
   background-attachment: fixed; }
   .section-six .black-background {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     height: 100%; }
     .section-six .black-background img {
       width: 100%;
@@ -355,18 +377,22 @@ a {
       padding-top: 80px; }
       .section-six .black-background .quote-icon img {
         width: 60px; }
-    .section-six .black-background .quotes p {
-      width: 500px;
-      color: white;
-      font-size: 25px;
-      font-weight: bold;
-      text-align: center;
-      margin: 60px auto; }
-    .section-six .black-background .quotes h3 {
-      width: 100px;
-      margin: 0 auto;
-      font-size: 15px;
-      color: white; }
+    .section-six .black-background .quotes {
+      font-family: "montserat"; }
+      .section-six .black-background .quotes p {
+        width: 6.7in;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 60px auto; }
+      .section-six .black-background .quotes h3 {
+        width: 2in;
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 13px;
+        color: white;
+        text-align: center; }
 
 .section-seven {
   height: 100%; }
@@ -375,24 +401,29 @@ a {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 70px; }
+    margin-bottom: 40px; }
     .section-seven .first-component .sevensec-title {
       padding: 15px; }
       .section-seven .first-component .sevensec-title h1 {
-        font-size: 30px;
+        font-size: 23px;
         text-transform: uppercase;
-        font-family: "Lato Regular";
+        font-family: "Montserat";
         margin: 75px 0 22px 0;
         font-weight: bold; }
       .section-seven .first-component .sevensec-title h4 {
         font-size: 14px;
         text-transform: uppercase;
         font-family: "Lato Regular";
-        margin-bottom: 25px; }
+        margin-bottom: 25px;
+        color: rgba(0, 0, 0, 0.4); }
     .section-seven .first-component p {
-      width: 700px;
+      width: 640px;
       margin: 0 auto;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 14px;
+      font-family: "Lato Regular";
+      line-height: 1.5; }
   .section-seven .second-component {
     height: 100%;
     padding-top: 35px;
@@ -405,16 +436,23 @@ a {
         height: 350px;
         padding: 0;
         position: relative; }
+        .section-seven .second-component .row .col-3:hover .pic-div {
+          height: 100%; }
+          .section-seven .second-component .row .col-3:hover .pic-div p {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 350px; }
         .section-seven .second-component .row .col-3 .pic-div {
           background-color: rgba(0, 0, 0, 0.8);
           position: absolute;
           height: 70px;
           bottom: 0;
-          width: 100%; }
+          width: 100%;
+          transition: height 1s; }
           .section-seven .second-component .row .col-3 .pic-div p {
             color: white;
-            font-size: 18px;
-            font-family: Verdana;
+            font-size: 14px;
+            font-family: "Montserat";
             width: 100%;
             line-height: 70px;
             text-align: center; }
@@ -428,13 +466,15 @@ a {
         .section-seven .second-component .left .col-4 .col4h2 {
           font-family: "Lato Regular";
           font-size: 22px;
-          margin-bottom: 20px;
+          margin-bottom: 29px;
           font-weight: bold;
           text-transform: uppercase; }
         .section-seven .second-component .left .col-4 .col4p {
           font-family: "Laro Regular";
           font-size: 16px;
-          width: 100%; }
+          width: 100%;
+          color: rgba(0, 0, 0, 0.6);
+          line-height: 1.5; }
     .section-seven .second-component .div1 {
       background-image: url("../img/img1.jpg");
       background-repeat: no-repeat;
@@ -472,24 +512,28 @@ a {
       border-radius: 0;
       width: 770px;
       height: 50px;
+      color: white;
+      font-family: "Montserat";
+      font-weight: bold;
       margin-right: 25px;
-      padding-left: 50px;
-      background-image: url("../img/phone2.png");
+      padding-left: 70px;
+      background-image: url("../img/email.png");
       background-repeat: no-repeat;
       background-size: 25px 25px;
-      background-position-x: 10px;
-      background-position-y: 10px; }
+      background-position-x: 30px;
+      background-position-y: 13px; }
     .section-eight .container .h_inp_button button {
       border-radius: 0;
       background: white;
       color: black;
       width: 170px;
       height: 50px;
-      font-family: "Lato Regular";
-      text-transform: uppercase; }
+      font-family: "Montserat";
+      text-transform: uppercase;
+      font-weight: bold; }
 
 .section-nine {
-  height: 915px; }
+  height: 100%; }
   .section-nine .first-component {
     display: flex;
     justify-content: center;
@@ -498,53 +542,76 @@ a {
     .section-nine .first-component .ninesec-title {
       padding: 15px; }
       .section-nine .first-component .ninesec-title h1 {
-        font-size: 30px;
+        font-size: 23px;
         text-transform: uppercase;
-        font-family: "Lato Regular";
+        font-family: "Montserat";
         margin: 70px 0 20px 0;
         font-weight: bold; }
       .section-nine .first-component .ninesec-title h4 {
         font-size: 14px;
         text-transform: uppercase;
         font-family: "Lato Regular";
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        color: rgba(0, 0, 0, 0.4); }
+      .section-nine .first-component .ninesec-title .line {
+        width: 150px; }
     .section-nine .first-component p {
-      width: 700px;
+      width: 606px;
       margin: 0 auto;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-family: "Lato Regular";
+      line-height: 1.6;
+      color: rgba(0, 0, 0, 0.7); }
   .section-nine .second-component {
     margin-top: 60px; }
     .section-nine .second-component .icons {
       text-align: center; }
       .section-nine .second-component .icons i {
         font-size: 25px;
-        margin-bottom: 15px; }
+        margin-bottom: 20px; }
+      .section-nine .second-component .icons p {
+        font-family: "Lato Regular";
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 1.6; }
     .section-nine .second-component form {
       width: 100%;
-      height: 280px;
+      height: 100%;
       margin-top: 100px; }
+      .section-nine .second-component form input[type=text] {
+        height: 0.6in;
+        margin-bottom: 0.5in; }
+      .section-nine .second-component form .radius {
+        border: 1px solid grey;
+        border-radius: 0; }
       .section-nine .second-component form textarea {
-        resize: none; }
+        resize: none;
+        border-radius: 0;
+        background-color: 1px solid black; }
       .section-nine .second-component form .buttonsubmit {
         padding: 14px;
         display: flex;
-        justify-content: flex-end; }
+        justify-content: flex-end;
+        margin-bottom: 40px; }
         .section-nine .second-component form .buttonsubmit button {
           width: 120px;
           border-radius: 0;
           background-color: black; }
 
 .final-section {
-  height: 260px;
+  height: 100%;
   background-color: black; }
   .final-section .quote-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 60px; }
+    padding-top: 60px;
+    margin-bottom: 20px; }
   .final-section nav {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 10px; }
     .final-section nav ul {
       display: flex; }
       .final-section nav ul li {
@@ -553,4 +620,6 @@ a {
           color: white; }
   .final-section h5 {
     text-align: center;
-    color: white; }
+    color: white;
+    margin-bottom: 60px;
+    font-family: "Lato Regular"; }
