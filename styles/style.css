@@ -337,10 +337,11 @@ a {
         background-color: yellow; }
 
 .section-six {
-  height: 400px;
+  height: 500px;
   background-image: url("../img/coffe1.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: contain;
+  background-attachment: fixed; }
   .section-six img {
     width: 100%;
     height: 100%; }
