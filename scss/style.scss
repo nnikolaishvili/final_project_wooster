@@ -75,6 +75,7 @@
             height: 60px;
             @extend %button_and_hover;
             color:$main-colour-white;
+            cursor: pointer;
         }
     }
 }
@@ -103,6 +104,7 @@
             border: 3px solid white;
             border-radius: 25px;
             transition: all 500ms ease; 
+            cursor: pointer;
             &:hover{
                 border: 3px dotted #3a7999;
                 background: #3a7999;
@@ -160,6 +162,7 @@
                 position: relative;
                 box-sizing: border-box;
                 transition: all 500ms ease; 
+                cursor: pointer;
                 &:hover{
                     background-color:#3a7999;
                 }
@@ -259,6 +262,7 @@
                 font-size: 15px;
                 font-family: "Lato Regular";
                 transition: all 500ms ease; 
+                cursor: pointer;
                 &:hover{
                     background-color: #3a7999;;
                 }
@@ -322,6 +326,7 @@
             padding: 10px;
             font-family: "Lato Regular";
             transition: all 500ms ease; 
+            cursor: pointer;
             &:hover{
                 background-color: yellow;
             }
@@ -473,22 +478,22 @@
                     }
                 }
             }
-            .div1{
+            .johnstephensondiv1{
                 background-image: url('../img/img1.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            .div2{
+            .johnstephensondiv2{
                 background-image: url('../img/img2.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            .div3{
+            .johnstephensondiv3{
                 background-image: url('../img/img3.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            .div4{
+            .johnstephensondiv4{
                 background-image: url('../img/img4.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -538,6 +543,7 @@
                 font-family: "Montserat";
                 text-transform: uppercase;
                 font-weight: bold;
+                cursor: pointer;
             }
         }
     }
@@ -621,6 +627,7 @@
                     width: 120px;
                     border-radius: 0;
                     background-color: $main-colour-black;
+                    cursor: pointer;
                 }
             }
         }
@@ -646,6 +653,10 @@
                 margin: 20px;
                 i{
                     color: $main-colour-white;
+                    &:hover{
+                        font-size: 30px;
+                        color: aqua;
+                    }
                 }
             }
         }

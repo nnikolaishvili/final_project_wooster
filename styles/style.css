@@ -87,6 +87,11 @@ a {
   content: "\e900";
   color: white; }
 
+@media only screen and (max-width: 1200px) {
+  .shrink {
+    margin-right: 0;
+    max-width: 200px; } }
+
 .first-section .p_button button {
   background: none;
   border: 2px solid black;
@@ -149,7 +154,8 @@ a {
     .first-section .p_button button {
       width: 228px;
       height: 60px;
-      color: white; }
+      color: white;
+      cursor: pointer; }
 
 .second-section {
   background-color: black;
@@ -174,7 +180,8 @@ a {
       color: black;
       border: 3px solid white;
       border-radius: 25px;
-      transition: all 500ms ease; }
+      transition: all 500ms ease;
+      cursor: pointer; }
       .second-section .sec-section-p-but button:hover {
         border: 3px dotted #3a7999;
         background: #3a7999;
@@ -223,7 +230,8 @@ a {
         border-radius: 2px;
         position: relative;
         box-sizing: border-box;
-        transition: all 500ms ease; }
+        transition: all 500ms ease;
+        cursor: pointer; }
         .third-section .container .third-section-h-div button:hover {
           background-color: #3a7999; }
     .third-section .container .third-section-img-div {
@@ -305,7 +313,8 @@ a {
         padding: 10px;
         font-size: 15px;
         font-family: "Lato Regular";
-        transition: all 500ms ease; }
+        transition: all 500ms ease;
+        cursor: pointer; }
         .section-five .first-component .buttons .button:hover {
           background-color: #3a7999; }
   .section-five .second-component {
@@ -353,7 +362,8 @@ a {
       background-color: white;
       padding: 10px;
       font-family: "Lato Regular";
-      transition: all 500ms ease; }
+      transition: all 500ms ease;
+      cursor: pointer; }
       .section-five .second-component .see_more_btn:hover {
         background-color: yellow; }
 
@@ -475,19 +485,19 @@ a {
           width: 100%;
           color: rgba(0, 0, 0, 0.6);
           line-height: 1.5; }
-    .section-seven .second-component .div1 {
+    .section-seven .second-component .johnstephensondiv1 {
       background-image: url("../img/img1.jpg");
       background-repeat: no-repeat;
       background-size: cover; }
-    .section-seven .second-component .div2 {
+    .section-seven .second-component .johnstephensondiv2 {
       background-image: url("../img/img2.jpg");
       background-repeat: no-repeat;
       background-size: cover; }
-    .section-seven .second-component .div3 {
+    .section-seven .second-component .johnstephensondiv3 {
       background-image: url("../img/img3.jpg");
       background-repeat: no-repeat;
       background-size: cover; }
-    .section-seven .second-component .div4 {
+    .section-seven .second-component .johnstephensondiv4 {
       background-image: url("../img/img4.jpg");
       background-repeat: no-repeat;
       background-size: cover; }
@@ -530,7 +540,8 @@ a {
       height: 50px;
       font-family: "Montserat";
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      cursor: pointer; }
 
 .section-nine {
   height: 100%; }
@@ -597,7 +608,8 @@ a {
         .section-nine .second-component form .buttonsubmit button {
           width: 120px;
           border-radius: 0;
-          background-color: black; }
+          background-color: black;
+          cursor: pointer; }
 
 .final-section {
   height: 100%;
@@ -618,6 +630,9 @@ a {
         margin: 20px; }
         .final-section nav ul li i {
           color: white; }
+          .final-section nav ul li i:hover {
+            font-size: 30px;
+            color: aqua; }
   .final-section h5 {
     text-align: center;
     color: white;
