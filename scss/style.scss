@@ -2,6 +2,7 @@
 @import 'variables.scss';
 @import 'fonts.scss';
 @import 'mediaqueries.scss';
+@import 'animate.min.scss';
 
 // futurely extended
 %button_and_hover {
@@ -121,6 +122,9 @@
     .container{
      display: flex;
      justify-content: space-between;
+     .row{
+         margin: 0 auto;
+     }
         .third-section-h-div{
             width: 500px;
             padding-top: 40px;
@@ -173,6 +177,7 @@
             background-size: cover;
             width: 570px;
             height: 570px;
+            background-position-x: center;
         }
     }
 }
@@ -280,6 +285,7 @@
                 margin-right: 5px;
                 margin-bottom: 10px;
                 transition: 1s ease;
+                background-position-x: center;
                 &:hover{
                     //eseni qvedebze
                     transform: scale(0.8);
@@ -290,32 +296,32 @@
         .div1{
             background-image: url('../img/1.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .div2{
             background-image: url('../img/2.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .div3{
             background-image: url('../img/3.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .div4{
             background-image: url('../img/4.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .div5{
             background-image: url('../img/5.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .div6{
             background-image: url('../img/6.jpg');
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
         }
         .see_more_btn{
             margin: 115px auto;
@@ -422,9 +428,9 @@
         .row{
             margin-left: 0;
             .col-3{
-                max-width: 235px;
+                max-width: 255px;
                 margin: 10px;
-                height: 303px;
+                height: 335px;
                 padding: 0;
                 position: relative;
                 &:hover{
@@ -481,22 +487,26 @@
             .johnstephensondiv1{
                 background-image: url('../img/img1.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position-x: center;
             }
             .johnstephensondiv2{
                 background-image: url('../img/img2.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position-x: center;
             }
             .johnstephensondiv3{
                 background-image: url('../img/img3.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position-x: center;
             }
             .johnstephensondiv4{
                 background-image: url('../img/img4.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position-x: center;
             }
         }
     }
