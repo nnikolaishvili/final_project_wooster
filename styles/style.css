@@ -3225,8 +3225,50 @@ a {
       font-size: 23px; }
   .second-section .sec-section-p-but {
     width: 660px; }
+  .section-five .first-component p {
+    width: 565px; }
+  .section-seven .first-component p {
+    width: 528px; }
   .section-seven .second-component .row .responsive {
     max-width: 313px;
     margin-right: 20px; }
+  .section-nine .first-component p {
+    width: 548px; }
   .section-nine .second-component form .buttonsubmit {
     justify-content: center; } }
+
+@media only screen and (max-width: 770px) {
+  .first-section .p_button {
+    width: 500px; }
+  .second-section .sec-section-p-but {
+    width: 485px; }
+    .second-section .sec-section-p-but button {
+      width: 178px;
+      height: 42px; }
+  .section-five .first-component p {
+    width: 490px;
+    font-size: 18px; }
+  .section-five .second-component .row .size {
+    display: flex;
+    justify-content: center; }
+  .section-five .second-component .row .size:nth-child(4) {
+    margin-bottom: 1.5rem; }
+  .section-five .second-component .row .size:nth-child(4) {
+    margin-bottom: 1.5rem; }
+  .section-five .second-component .row .size:nth-child(5) {
+    margin-bottom: 1.5rem; }
+  .section-six .black-background .quotes p {
+    width: 5.7in;
+    font-size: 24px; }
+  .section-seven .first-component p {
+    width: 490px;
+    font-size: 17px; }
+  .section-seven .second-component .row {
+    justify-content: center; }
+    .section-seven .second-component .row .responsive:last-child {
+      margin-right: 10px; }
+  .section-eight .container .h_inp_button input {
+    width: 545px; }
+  .section-nine .first-component p {
+    width: 470px;
+    font-size: 17px; } }

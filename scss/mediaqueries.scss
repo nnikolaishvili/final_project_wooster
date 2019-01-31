@@ -53,14 +53,24 @@
             }
         }
     }
-
     .second-section{
         .sec-section-p-but{
             width: 660px;
         }
+    }
+    .section-five{
+        .first-component{
+            p{
+                width: 565px;
+            }
+        }
     } 
-
     .section-seven{
+        .first-component{
+            p{
+                width: 528px;
+            }
+        }
         .second-component{
             .row{
                 .responsive{
@@ -71,6 +81,11 @@
         }
     }
     .section-nine{
+        .first-component{
+            p{
+                width: 548px;
+            }
+        }
         .second-component{
            form{
                .buttonsubmit{
@@ -79,4 +94,90 @@
            } 
         }
     }   
+}
+
+
+@media only screen and (max-width: 770px){
+    .first-section{
+        .p_button{
+            width: 500px;
+        }
+    }
+    .second-section{
+        .sec-section-p-but{
+            width: 485px;
+            button{
+                width: 178px;
+                height: 42px;
+            }
+        }
+    } 
+    .section-five{
+        .first-component{
+            p{
+                width: 490px;
+                font-size: 18px;
+            }
+        }
+        .second-component{
+            .row{
+                .size{
+                    display: flex;
+                    justify-content: center;
+                }
+                .size:nth-child(4){
+                    margin-bottom: 1.5rem;
+                }
+                .size:nth-child(4){
+                    margin-bottom: 1.5rem;
+                }
+                .size:nth-child(5){
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }  
+    }
+    .section-six{
+       .black-background{
+           .quotes{
+                p{
+                    width: 5.7in;
+                    font-size: 24px;
+                }
+           }  
+       } 
+    }   
+    .section-seven{
+        .first-component{
+            p{
+                width: 490px;
+                font-size: 17px;
+            }
+        }
+       .second-component{
+         .row{
+             justify-content: center;
+                .responsive:last-child{
+                    margin-right: 10px;
+                }
+            }  
+        } 
+    }
+    .section-eight{
+        .container{
+           .h_inp_button{
+              input{
+                width: 545px;
+              } 
+           } 
+        }  
+    }
+    .section-nine{
+        .first-component{
+            p{
+                width: 470px;
+                font-size: 17px;
+            }
+        }
+    }  
 }
