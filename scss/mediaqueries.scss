@@ -1,24 +1,82 @@
+
 @media only screen and (max-width: 1200px){
     .first-section{
         .p_button{
+            width: 720px;
             .second-p{
-                font-size: 37px;
+                font-size: 33px;
             }
         }
     }
+    .second-section{
+        .sec-section-p-but{
+            width: 740px;
+        }
+    } 
     .section-five{
         .second-component{
-            .shrink{
-                max-width: 265px;
+            .row{
+                .col{
+                    max-width: 220px;
+                }
             }
         }
     }
     .section-seven{
         .second-component{
-            .col-3{
-                max-width: 210px;
-                height: 370px;
+            .row{
+                .responsive{
+                    max-width: 215px;
+                }
+            }  
+        }
+    } 
+    .section-eight{
+       .container{
+           .h_inp_button{
+               text-align: center;
+              input{
+                  margin-bottom: 30px;
+              } 
+           }
+       } 
+    }   
+    
+} 
+
+@media only screen and (max-width: 990px){
+    .first-section{
+        .p_button{
+            width: 575px;
+            .second-p{
+                font-size: 23px;
             }
         }
     }
-} 
+
+    .second-section{
+        .sec-section-p-but{
+            width: 660px;
+        }
+    } 
+
+    .section-seven{
+        .second-component{
+            .row{
+                .responsive{
+                    max-width: 313px;
+                    margin-right: 20px;
+                }
+            }  
+        }
+    }
+    .section-nine{
+        .second-component{
+           form{
+               .buttonsubmit{
+                   justify-content: center;
+               } 
+           } 
+        }
+    }   
+}

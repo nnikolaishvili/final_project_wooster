@@ -87,15 +87,6 @@ a {
   content: "\e900";
   color: white; }
 
-@media only screen and (max-width: 1200px) {
-  .first-section .p_button .second-p {
-    font-size: 37px; }
-  .section-five .second-component .shrink {
-    max-width: 265px; }
-  .section-seven .second-component .col-3 {
-    max-width: 210px;
-    height: 370px; } }
-
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.7.0
@@ -2865,104 +2856,73 @@ a {
       height: 100%;
       cursor: pointer; }
 
-.section-five {
-  height: 1490px; }
-  .section-five .first-component {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; }
-    .section-five .first-component .fivesec-title h1 {
-      font-size: 23px;
-      text-transform: uppercase;
-      font-family: 'Montserat';
-      margin: 75px 0 15px 0;
-      font-weight: bold; }
-    .section-five .first-component .fivesec-title h4 {
-      font-size: 14px;
-      text-transform: uppercase;
-      font-family: "Lato Regular";
-      margin-bottom: 20px;
-      color: rgba(0, 0, 0, 0.4); }
-    .section-five .first-component .fivesec-title .line {
-      background-color: black;
-      width: 87px;
-      height: 2px;
-      margin: 0 auto 80px auto; }
-    .section-five .first-component p {
-      width: 690px;
-      margin: 0 auto;
-      margin-bottom: 77px;
-      font-family: "Lato Regular";
-      color: rgba(0, 0, 0, 0.6); }
-    .section-five .first-component .buttons {
-      margin-bottom: 80px; }
-      .section-five .first-component .buttons .button {
-        width: 140px;
-        height: 50px;
-        margin: 10px;
-        border: 2px solid black;
-        background-color: white;
-        padding: 10px;
-        font-size: 15px;
-        font-family: "Lato Regular";
-        transition: all 500ms ease;
-        cursor: pointer; }
-        .section-five .first-component .buttons .button:hover {
-          background-color: #3a7999; }
-  .section-five .second-component {
-    height: 980px; }
-    .section-five .second-component .row {
-      margin: 0 auto; }
-      .section-five .second-component .row .col {
-        max-width: 330px;
-        height: 340px;
-        margin-right: 5px;
-        margin-bottom: 10px;
-        transition: 1s ease;
-        background-position-x: center; }
-        .section-five .second-component .row .col:hover {
-          transform: scale(0.8);
-          transition: 1s ease; }
-    .section-five .second-component .div1 {
-      background-image: url("../img/1.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .div2 {
-      background-image: url("../img/2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .div3 {
-      background-image: url("../img/3.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .div4 {
-      background-image: url("../img/4.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .div5 {
-      background-image: url("../img/5.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .div6 {
-      background-image: url("../img/6.jpg");
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .section-five .second-component .see_more_btn {
-      margin: 115px auto;
-      width: 170px;
+.section-five .first-component {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .section-five .first-component .fivesec-title h1 {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Montserat';
+    margin: 75px 0 15px 0;
+    font-weight: bold; }
+  .section-five .first-component .fivesec-title h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Lato Regular";
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.4); }
+  .section-five .first-component .fivesec-title .line {
+    background-color: black;
+    width: 87px;
+    height: 2px;
+    margin: 0 auto 80px auto; }
+  .section-five .first-component p {
+    width: 690px;
+    margin: 0 auto;
+    margin-bottom: 77px;
+    font-family: "Lato Regular";
+    color: rgba(0, 0, 0, 0.6); }
+  .section-five .first-component .buttons {
+    margin-bottom: 80px; }
+    .section-five .first-component .buttons .button {
+      width: 140px;
       height: 50px;
+      margin: 10px;
       border: 2px solid black;
       background-color: white;
       padding: 10px;
+      font-size: 15px;
       font-family: "Lato Regular";
       transition: all 500ms ease;
       cursor: pointer; }
-      .section-five .second-component .see_more_btn:hover {
-        background-color: yellow; }
+      .section-five .first-component .buttons .button:hover {
+        background-color: #3a7999; }
+
+.section-five .second-component .row .size .photo {
+  width: 310px;
+  margin-bottom: 10px;
+  transition: 1s ease; }
+  .section-five .second-component .row .size .photo:hover {
+    transform: scale(0.8);
+    transition: 1s ease; }
+
+.section-five .second-component .see_more_btn {
+  margin: 115px auto;
+  width: 170px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  font-family: "Lato Regular";
+  transition: all 500ms ease;
+  cursor: pointer; }
+  .section-five .second-component .see_more_btn:hover {
+    background-color: yellow; }
 
 .section-six {
-  height: 450px;
+  height: 100%;
   background-image: url("../img/coffe.jpg");
   background-position-x: 100%;
   background-repeat: no-repeat;
@@ -2982,7 +2942,8 @@ a {
       .section-six .black-background .quote-icon img {
         width: 60px; }
     .section-six .black-background .quotes {
-      font-family: "montserat"; }
+      font-family: "montserat";
+      margin-bottom: 70px; }
       .section-six .black-background .quotes p {
         width: 6.7in;
         color: white;
@@ -3034,46 +2995,50 @@ a {
     margin-bottom: 40px; }
     .section-seven .second-component .row {
       margin-left: 0; }
-      .section-seven .second-component .row .col-3 {
+      .section-seven .second-component .row .responsive {
         max-width: 255px;
-        margin: 10px;
+        margin: 10px 10px 10px 0;
         height: 335px;
         padding: 0;
         position: relative; }
-        .section-seven .second-component .row .col-3:hover .pic-div {
+        .section-seven .second-component .row .responsive:hover .pic-div {
           height: 100%; }
-          .section-seven .second-component .row .col-3:hover .pic-div p {
+          .section-seven .second-component .row .responsive:hover .pic-div p {
             font-size: 20px;
             font-weight: bold;
             line-height: 350px; }
-        .section-seven .second-component .row .col-3 .pic-div {
+        .section-seven .second-component .row .responsive .pic-div {
           background-color: rgba(0, 0, 0, 0.8);
           position: absolute;
           height: 70px;
           bottom: 0;
           width: 100%;
           transition: height 1s; }
-          .section-seven .second-component .row .col-3 .pic-div p {
+          .section-seven .second-component .row .responsive .pic-div p {
             color: white;
             font-size: 14px;
             font-family: "Montserat";
             width: 100%;
             line-height: 70px;
             text-align: center; }
+      .section-seven .second-component .row .responsive:last-child {
+        margin-right: 0;
+        margin-left: 0; }
     .section-seven .second-component .left {
       text-align: left;
-      padding-top: 80px; }
-      .section-seven .second-component .left .col-4 {
+      padding-top: 80px;
+      margin-bottom: 40px; }
+      .section-seven .second-component .left .articlediv {
         padding: 20px;
         max-width: 360px;
-        height: 260px; }
-        .section-seven .second-component .left .col-4 .col4h2 {
+        height: 100%; }
+        .section-seven .second-component .left .articlediv .col4h2 {
           font-family: "Lato Regular";
           font-size: 22px;
           margin-bottom: 29px;
           font-weight: bold;
           text-transform: uppercase; }
-        .section-seven .second-component .left .col-4 .col4p {
+        .section-seven .second-component .left .articlediv .col4p {
           font-family: "Laro Regular";
           font-size: 16px;
           width: 100%;
@@ -3236,3 +3201,32 @@ a {
     color: white;
     margin-bottom: 60px;
     font-family: "Lato Regular"; }
+
+@media only screen and (max-width: 1200px) {
+  .first-section .p_button {
+    width: 720px; }
+    .first-section .p_button .second-p {
+      font-size: 33px; }
+  .second-section .sec-section-p-but {
+    width: 740px; }
+  .section-five .second-component .row .col {
+    max-width: 220px; }
+  .section-seven .second-component .row .responsive {
+    max-width: 215px; }
+  .section-eight .container .h_inp_button {
+    text-align: center; }
+    .section-eight .container .h_inp_button input {
+      margin-bottom: 30px; } }
+
+@media only screen and (max-width: 990px) {
+  .first-section .p_button {
+    width: 575px; }
+    .first-section .p_button .second-p {
+      font-size: 23px; }
+  .second-section .sec-section-p-but {
+    width: 660px; }
+  .section-seven .second-component .row .responsive {
+    max-width: 313px;
+    margin-right: 20px; }
+  .section-nine .second-component form .buttonsubmit {
+    justify-content: center; } }

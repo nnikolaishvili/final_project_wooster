@@ -1,7 +1,6 @@
 @import 'reset.scss';
 @import 'variables.scss';
 @import 'fonts.scss';
-@import 'mediaqueries.scss';
 @import 'animate.min.scss';
 
 // futurely extended
@@ -64,12 +63,12 @@
                 font-family: "Lato Regular";
                 font-weight: bold;
                 margin-bottom: 45px;
-        }
-        .second-p{
-            margin-bottom: 50px;
-            font-size: 45px;
-            font-weight: bold;
-            font-family: Montserat;
+            }
+            .second-p{
+                margin-bottom: 50px;
+                font-size: 45px;
+                font-weight: bold;
+                font-family: Montserat;
         }
         button{
             width: 228px;
@@ -220,7 +219,6 @@
         }
     }
 .section-five{
-    height: 1490px;
     .first-component{
         display: flex;
         justify-content: center;
@@ -276,52 +274,19 @@
         }
     }
     .second-component{
-        height: 980px;
         .row{
-            margin: 0 auto;
-            .col{
-                max-width: 330px;
-                height: 340px;
-                margin-right: 5px;
-                margin-bottom: 10px;
-                transition: 1s ease;
-                background-position-x: center;
-                &:hover{
-                    //eseni qvedebze
-                    transform: scale(0.8);
+            .size{
+                    .photo{
+                    width:310px;
+                    margin-bottom: 10px;
                     transition: 1s ease;
-                }
+                   
+                    &:hover{
+                        transform: scale(0.8);
+                        transition: 1s ease;
+                    }
+                } 
             }
-        }
-        .div1{
-            background-image: url('../img/1.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .div2{
-            background-image: url('../img/2.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .div3{
-            background-image: url('../img/3.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .div4{
-            background-image: url('../img/4.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .div5{
-            background-image: url('../img/5.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .div6{
-            background-image: url('../img/6.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         .see_more_btn{
             margin: 115px auto;
@@ -340,7 +305,7 @@
     }
 }
 .section-six{
-    height:450px;
+    height: 100%;
     background-image: url('../img/coffe.jpg');
     background-position-x: 100%;
     background-repeat: no-repeat;
@@ -364,6 +329,7 @@
         }
         .quotes{
             font-family: "montserat";
+            margin-bottom: 70px;
             p{
                 width: 6.7in;
                 color: $main-colour-white;
@@ -427,9 +393,9 @@
         margin-bottom: 40px;
         .row{
             margin-left: 0;
-            .col-3{
+            .responsive{
                 max-width: 255px;
-                margin: 10px;
+                margin:10px 10px 10px 0;
                 height: 335px;
                 padding: 0;
                 position: relative;
@@ -460,14 +426,19 @@
                     }
                 }
             }
+            .responsive:last-child{
+                margin-right: 0;
+                margin-left: 0;
+            }
         }
             .left{
                 text-align: left;
                 padding-top: 80px;
-                .col-4{
+                margin-bottom: 40px;
+                .articlediv{
                     padding: 20px;
                     max-width: 360px;
-                    height: 260px; //
+                    height: 100%;
                     .col4h2{
                         font-family: "Lato Regular";
                         font-size: 22px;
@@ -678,3 +649,4 @@
         font-family: "Lato Regular";
     }
 }
+@import 'mediaqueries.scss';
