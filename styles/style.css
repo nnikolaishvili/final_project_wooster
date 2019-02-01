@@ -3218,6 +3218,18 @@ a {
       font-size: 33px; }
   .second-section .sec-section-p-but {
     width: 740px; }
+  .third-section .container .third-section-h-div {
+    padding-top: 0;
+    width: 100%;
+    text-align: center; }
+    .third-section .container .third-section-h-div div {
+      width: 130px;
+      margin-left: 210px; }
+    .third-section .container .third-section-h-div button {
+      margin-bottom: 50px; }
+  .third-section .container .third-section-img-div {
+    margin-bottom: 50px;
+    width: 100%; }
   .section-five .second-component .row .col {
     max-width: 220px; }
   .section-seven .second-component .row .responsive {
@@ -3249,18 +3261,6 @@ a {
     justify-content: center; } }
 
 @media only screen and (max-width: 893px) {
-  .third-section .container .third-section-h-div {
-    text-align: center;
-    padding-top: 0; }
-    .third-section .container .third-section-h-div div {
-      margin: 50px auto;
-      width: 130px; }
-    .third-section .container .third-section-h-div button {
-      margin-bottom: 50px; }
-    .third-section .container .third-section-h-div p {
-      font-size: 18px; }
-  .third-section .container .third-section-img-div {
-    margin-bottom: 50px; }
   .section-seven .second-component .left .articlediv h2 {
     text-align: center; }
     .section-seven .second-component .left .articlediv h2:hover {
@@ -3277,8 +3277,6 @@ a {
     .second-section .sec-section-p-but button {
       width: 178px;
       height: 42px; }
-  .third-section .container .third-section-h-div {
-    padding-top: 0; }
   .section-five .first-component p {
     width: 490px;
     font-size: 18px; }
