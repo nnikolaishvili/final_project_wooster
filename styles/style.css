@@ -3105,6 +3105,10 @@ a {
       text-transform: uppercase;
       font-weight: bold;
       cursor: pointer; }
+      .section-eight .container .h_inp_button button:hover {
+        background: #3a7999;
+        border-radius: 30px;
+        transition: 1.5s; }
 
 .section-nine {
   height: 100%; }
@@ -3143,7 +3147,10 @@ a {
       text-align: center; }
       .section-nine .second-component .icons i {
         font-size: 25px;
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        cursor: pointer; }
+        .section-nine .second-component .icons i:hover {
+          color: blue; }
       .section-nine .second-component .icons p {
         font-family: "Lato Regular";
         font-size: 13px;
@@ -3183,6 +3190,8 @@ a {
     align-items: center;
     padding-top: 60px;
     margin-bottom: 20px; }
+    .final-section .quote-icon img {
+      cursor: pointer; }
   .final-section nav {
     display: flex;
     justify-content: center;
@@ -3231,11 +3240,34 @@ a {
     width: 528px; }
   .section-seven .second-component .row .responsive {
     max-width: 313px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    height: 400px;
+    margin-bottom: 40px; }
   .section-nine .first-component p {
     width: 548px; }
   .section-nine .second-component form .buttonsubmit {
     justify-content: center; } }
+
+@media only screen and (max-width: 893px) {
+  .third-section .container .third-section-h-div {
+    text-align: center;
+    padding-top: 0; }
+    .third-section .container .third-section-h-div div {
+      margin: 50px auto;
+      width: 130px; }
+    .third-section .container .third-section-h-div button {
+      margin-bottom: 50px; }
+    .third-section .container .third-section-h-div p {
+      font-size: 18px; }
+  .third-section .container .third-section-img-div {
+    margin-bottom: 50px; }
+  .section-seven .second-component .left .articlediv h2 {
+    text-align: center; }
+    .section-seven .second-component .left .articlediv h2:hover {
+      font-size: 30px;
+      transition: 1s; }
+  .section-seven .second-component .left .articlediv p {
+    text-align: center; } }
 
 @media only screen and (max-width: 770px) {
   .first-section .p_button {
@@ -3245,6 +3277,8 @@ a {
     .second-section .sec-section-p-but button {
       width: 178px;
       height: 42px; }
+  .third-section .container .third-section-h-div {
+    padding-top: 0; }
   .section-five .first-component p {
     width: 490px;
     font-size: 18px; }

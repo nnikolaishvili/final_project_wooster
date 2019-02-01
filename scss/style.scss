@@ -525,6 +525,11 @@
                 text-transform: uppercase;
                 font-weight: bold;
                 cursor: pointer;
+                &:hover{
+                    background: #3a7999;
+                    border-radius: 30px;
+                    transition: 1.5s;
+                }
             }
         }
     }
@@ -574,6 +579,10 @@
             i{
                 font-size: 25px;
                 margin-bottom: 20px;
+                cursor: pointer;
+                &:hover{
+                    color: blue;
+                }
             }
             p{
                 font-family: "Lato Regular";
@@ -608,8 +617,8 @@
                     width: 120px;
                     border-radius: 0;
                     background-color: $main-colour-black;
-                    cursor: pointer;
-                }
+                    cursor: pointer;    
+                }  
             }
         }
     }
@@ -623,6 +632,9 @@
         align-items: center;
         padding-top: 60px;
         margin-bottom: 20px;
+        img{
+            cursor: pointer;
+        }
     }
     nav{
         display: flex;
