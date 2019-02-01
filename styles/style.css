@@ -3224,7 +3224,7 @@ a {
     text-align: center; }
     .third-section .container .third-section-h-div div {
       width: 130px;
-      margin-left: 210px; }
+      margin: 0 auto; }
     .third-section .container .third-section-h-div button {
       margin-bottom: 50px; }
   .third-section .container .third-section-img-div {
@@ -3237,7 +3237,8 @@ a {
   .section-eight .container .h_inp_button {
     text-align: center; }
     .section-eight .container .h_inp_button input {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      width: 610px; } }
 
 @media only screen and (max-width: 990px) {
   .first-section .p_button {
@@ -3290,7 +3291,7 @@ a {
   .section-five .second-component .row .size:nth-child(5) {
     margin-bottom: 1.5rem; }
   .section-six .black-background .quotes p {
-    width: 5.7in;
+    width: 4.0in;
     font-size: 24px; }
   .section-seven .first-component p {
     width: 490px;

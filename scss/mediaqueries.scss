@@ -21,11 +21,11 @@
                 text-align: center;
                 div{
                     width: 130px;
-                    margin-left: 210px;
+                    margin: 0 auto;
                 }
                 button{
                     margin-bottom: 50px;
-                }
+                }                
             }
             .third-section-img-div{
                 margin-bottom: 50px;
@@ -57,6 +57,7 @@
                text-align: center;
               input{
                   margin-bottom: 30px;
+                  width: 610px;
               } 
            }
        } 
@@ -183,7 +184,7 @@
        .black-background{
            .quotes{
                 p{
-                    width: 5.7in;
+                    width: 4.0in;
                     font-size: 24px;
                 }
            }  
