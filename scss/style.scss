@@ -3,6 +3,18 @@
 @import 'fonts.scss';
 @import 'animate.min.scss';
 
+@mixin transition($in) {
+    transition: $in;
+}
+
+@mixin transform($in) {
+    transform: $in;
+}
+
+@mixin animation($in) {
+    animation: $in;
+}
+
 // futurely extended
 %button_and_hover {
     background: none;
@@ -662,17 +674,7 @@
         font-family: "Lato Regular";
     }
 }
-@mixin transition($in) {
-    transition: $in;
-}
 
-@mixin transform($in) {
-    transform: $in;
-}
-
-@mixin animation($in) {
-    animation: $in;
-}
 
 .myButt {
     margin: 0 auto;
