@@ -2717,7 +2717,7 @@ a {
       line-height: 75px;
       color: black; }
   .first-section .p_button {
-    width: 770px;
+    width: 100%;
     height: 325px;
     margin: 155px auto;
     text-align: center;
@@ -2731,7 +2731,8 @@ a {
       margin-bottom: 50px;
       font-size: 45px;
       font-weight: bold;
-      font-family: Montserat; }
+      font-family: Montserat;
+      padding: 0 90px; }
     .first-section .p_button button {
       width: 228px;
       height: 60px;
@@ -2996,7 +2997,7 @@ a {
     .section-seven .second-component .row {
       margin-left: 0; }
       .section-seven .second-component .row .responsive {
-        max-width: 255px;
+        max-width: 270px;
         margin: 10px 10px 10px 0;
         height: 335px;
         padding: 0;
@@ -3212,10 +3213,8 @@ a {
     font-family: "Lato Regular"; }
 
 @media only screen and (max-width: 1200px) {
-  .first-section .p_button {
-    width: 720px; }
-    .first-section .p_button .second-p {
-      font-size: 33px; }
+  .first-section .p_button .second-p {
+    font-size: 33px; }
   .second-section .sec-section-p-but {
     width: 740px; }
   .third-section .container .third-section-h-div {
@@ -3224,7 +3223,8 @@ a {
     text-align: center; }
     .third-section .container .third-section-h-div div {
       width: 130px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      margin-bottom: 50px; }
     .third-section .container .third-section-h-div button {
       margin-bottom: 50px; }
   .third-section .container .third-section-img-div {
@@ -3237,27 +3237,23 @@ a {
   .section-eight .container .h_inp_button {
     text-align: center; }
     .section-eight .container .h_inp_button input {
-      margin-bottom: 30px;
-      width: 610px; } }
+      width: 100%;
+      margin-bottom: 30px; } }
 
 @media only screen and (max-width: 990px) {
-  .first-section .p_button {
-    width: 575px; }
-    .first-section .p_button .second-p {
-      font-size: 23px; }
+  .first-section .p_button .second-p {
+    font-size: 23px; }
   .second-section .sec-section-p-but {
     width: 660px; }
   .section-five .first-component p {
     width: 565px; }
-  .section-seven .first-component p {
-    width: 528px; }
   .section-seven .second-component .row .responsive {
     max-width: 313px;
     margin-right: 20px;
     height: 400px;
     margin-bottom: 40px; }
   .section-nine .first-component p {
-    width: 548px; }
+    width: 100%; }
   .section-nine .second-component form .buttonsubmit {
     justify-content: center; } }
 
@@ -3271,15 +3267,16 @@ a {
     text-align: center; } }
 
 @media only screen and (max-width: 770px) {
-  .first-section .p_button {
-    width: 500px; }
   .second-section .sec-section-p-but {
-    width: 485px; }
+    width: 100%;
+    text-align: center; }
+    .second-section .sec-section-p-but p {
+      margin-bottom: 20px; }
     .second-section .sec-section-p-but button {
       width: 178px;
       height: 42px; }
   .section-five .first-component p {
-    width: 490px;
+    width: 100%;
     font-size: 18px; }
   .section-five .second-component .row .size {
     display: flex;
@@ -3291,17 +3288,25 @@ a {
   .section-five .second-component .row .size:nth-child(5) {
     margin-bottom: 1.5rem; }
   .section-six .black-background .quotes p {
-    width: 4.0in;
+    width: 100%;
     font-size: 24px; }
   .section-seven .first-component p {
-    width: 490px;
+    width: 100%;
     font-size: 17px; }
   .section-seven .second-component .row {
     justify-content: center; }
     .section-seven .second-component .row .responsive:last-child {
       margin-right: 10px; }
   .section-eight .container .h_inp_button input {
-    width: 450px; }
+    width: 100%;
+    margin-right: 0; }
   .section-nine .first-component p {
-    width: 470px;
+    width: 100%;
     font-size: 17px; } }
+
+@media only screen and (max-width: 520px) {
+  .third-section .container .third-section-h-div p {
+    font-size: 18px; }
+  .second-section .sec-section-p-but {
+    width: 100%;
+    text-align: center; } }

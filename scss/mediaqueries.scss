@@ -2,7 +2,6 @@
 @media only screen and (max-width: 1200px){
     .first-section{
         .p_button{
-            width: 720px;
             .second-p{
                 font-size: 33px;
             }
@@ -22,6 +21,7 @@
                 div{
                     width: 130px;
                     margin: 0 auto;
+                    margin-bottom: 50px;
                 }
                 button{
                     margin-bottom: 50px;
@@ -56,8 +56,8 @@
            .h_inp_button{
                text-align: center;
               input{
+                  width: 100%;
                   margin-bottom: 30px;
-                  width: 610px;
               } 
            }
        } 
@@ -68,7 +68,6 @@
 @media only screen and (max-width: 990px){
     .first-section{
         .p_button{
-            width: 575px;
             .second-p{
                 font-size: 23px;
             }
@@ -87,11 +86,6 @@
         }
     } 
     .section-seven{
-        .first-component{
-            p{
-                width: 528px;
-            }
-        }
         .second-component{
             .row{
                 .responsive{
@@ -106,7 +100,7 @@
     .section-nine{
         .first-component{
             p{
-                width: 548px;
+                width: 100%;
             }
         }
         .second-component{
@@ -141,14 +135,13 @@
 }
 
 @media only screen and (max-width: 770px){
-    .first-section{
-        .p_button{
-            width: 500px;
-        }
-    }
     .second-section{
         .sec-section-p-but{
-            width: 485px;
+            width: 100%;
+            text-align: center;
+            p{
+                margin-bottom: 20px;
+            }
             button{
                 width: 178px;
                 height: 42px;
@@ -158,7 +151,7 @@
     .section-five{
         .first-component{
             p{
-                width: 490px;
+                width: 100%;
                 font-size: 18px;
             }
         }
@@ -184,7 +177,7 @@
        .black-background{
            .quotes{
                 p{
-                    width: 4.0in;
+                    width: 100%;
                     font-size: 24px;
                 }
            }  
@@ -193,7 +186,7 @@
     .section-seven{
         .first-component{
             p{
-                width: 490px;
+                width: 100%;
                 font-size: 17px;
             }
         }
@@ -210,7 +203,8 @@
         .container{
            .h_inp_button{
               input{
-                width: 450px;
+                width: 100%;
+                margin-right: 0;
               } 
            } 
         }  
@@ -218,9 +212,27 @@
     .section-nine{
         .first-component{
             p{
-                width: 470px;
+                width: 100%;
                 font-size: 17px;
             }
         }
     }  
+}
+
+@media only screen and (max-width: 520px){
+    .third-section{
+        .container{
+            .third-section-h-div{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .second-section{
+        .sec-section-p-but{
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
