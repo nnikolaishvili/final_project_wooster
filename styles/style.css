@@ -3212,6 +3212,32 @@ a {
     margin-bottom: 60px;
     font-family: "Lato Regular"; }
 
+.myButt {
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  padding: 20px;
+  display: block;
+  position: relative;
+  transition: all 0.5s ease; }
+
+.one {
+  overflow: hidden; }
+  .one .insider {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: -250px;
+    transform: rotateZ(-60deg); }
+  .one:hover {
+    background-color: #90859E;
+    border-color: #fff;
+    color: #fff; }
+    .one:hover .insider {
+      transition: all 0.3s ease;
+      left: 250px; }
+
 @media only screen and (max-width: 1200px) {
   .first-section .p_button .second-p {
     font-size: 33px; }
